@@ -1,0 +1,13 @@
+#about-container{
+    display: inline-block;
+    width: auto;
+    margin: 25px;
+
+}
+#about-container img{
+    width: 100%;
+    height: auto;
+}
+.about-container button a {
+    background-color: red;
+}

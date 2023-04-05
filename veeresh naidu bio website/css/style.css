@@ -1,0 +1,135 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: fontfamily;
+    src: url(/ThinDesign.otf);
+}
+
+#top-container {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: start; */
+    flex-direction: column;
+    float: left;
+    background-color: rgba(169, 169, 169, 0.355);
+}
+
+.top1 img {
+    width: 40px;
+    height: 40px;
+    margin: 6px 14px 320px 9px;
+}
+
+.top2 {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.top2 img {
+    margin: 16px 14px 0px 17px;
+    width: 25px;
+    height: 25px;
+}
+
+#navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 255, 98, 0.154);
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 14px 5px;
+
+}
+
+.navbar ul a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 8px 9px;
+}
+
+.navbar ul a:hover {
+    color: red;
+    background-color: rgba(245, 245, 245, 0.753);
+    border-radius: 4px;
+}
+
+
+.navbar-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-button button {
+    margin: 4px;
+    padding: 2px 4px;
+    color: green;
+    border-radius: 6px;
+}
+
+.navbar-button button a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.navbar-button ,h4{
+    margin-right: 25px;
+}
+
+/* this a images and heading section */
+
+#heading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heading{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+#img{
+    /* background-color: red; */
+    height: auto;
+    width: auto;
+}
+#heading-container .heading{
+    /* background-color: hsl(120, 100%, 25%); */
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(to right , red, yellow);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+
+}
+#heading-container .button {
+    font-size: 45px;
+    border-radius: 35px;
+    /* background-color: blue; */
+
+}
+#heading-container , button, a{
+    color: black;
+}
+
+
+
+
+
+
